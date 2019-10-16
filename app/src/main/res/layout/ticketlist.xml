@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/color_bg1"
+    android:layout_margin="8dp"
+    android:layout_marginTop="8dp"
+    android:padding="10dp">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/ticketId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="13dp"-->
+<!--        android:text="TICKET ID"-->
+<!--        android:textAlignment="viewEnd"-->
+<!--        android:textAppearance="?android:attr/textAppearanceSmall"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ticketDesc"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/ticketId"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="Ticket Desc"-->
+<!--        android:textAlignment="viewEnd"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/assignedTo"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/ticketDesc"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="AssignedTo"-->
+<!--        android:textAlignment="viewEnd"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ticketStatus"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/assignedTo"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="Ticket Status"-->
+<!--        android:textAlignment="viewEnd"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/createdDate"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/ticketStatus"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:text="Created Date "-->
+<!--        android:textAlignment="viewEnd"-->
+<!--        android:textColor="@android:color/black" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/ticketIdtv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="13dp"-->
+<!--        android:layout_toRightOf="@id/ticketId"-->
+<!--        android:hint="TICKET ID"-->
+<!--        android:paddingLeft="48dp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAppearance="?android:attr/textAppearanceSmall"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ticketDesctv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_toRightOf="@id/ticketDesc"-->
+<!--        android:layout_below="@id/ticketIdtv"-->
+<!--        android:paddingLeft="48dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:hint="Ticket Desc"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/assignedTotv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/ticketDesctv"-->
+
+<!--        android:layout_toRightOf="@id/assignedTo"-->
+<!--        android:paddingLeft="48dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:hint="AssignedTo"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/ticketStatustv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/assignedTotv"-->
+<!--        android:layout_toRightOf="@id/ticketStatus"-->
+<!--        android:paddingLeft="48dp"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:hint="Ticket Status"-->
+<!--        android:textColor="@android:color/black" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/createdDatetv"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@+id/ticketStatus"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_toRightOf="@id/createdDate"-->
+<!--        android:paddingLeft="48dp"-->
+<!--        android:hint="Created Date "-->
+<!--        android:textColor="@android:color/black" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ticketId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="13dp"
+                android:text="TICKET ID"
+                android:textAlignment="viewEnd"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/ticketDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ticketId"
+                android:layout_marginTop="5dp"
+                android:text="Ticket Desc"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/assignedTo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ticketDesc"
+                android:layout_marginTop="5dp"
+                android:text="AssignedTo"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/ticketStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/assignedTo"
+                android:layout_marginTop="5dp"
+                android:text="Ticket Status"
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/createdDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ticketStatus"
+                android:layout_marginTop="5dp"
+                android:text="Created Date "
+                android:textAlignment="viewEnd"
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ticketIdtv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="13dp"
+                android:hint="TICKET ID"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/ticketDesctv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ticketIdtv"
+                android:layout_marginTop="5dp"
+                android:hint="Ticket Desc"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/assignedTotv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ticketDesctv"
+                android:layout_marginTop="5dp"
+                android:hint="AssignedTo"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/ticketStatustv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/assignedTotv"
+                android:layout_marginTop="5dp"
+                android:hint="Ticket Status"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/createdDatetv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ticketStatus"
+                android:layout_marginTop="5dp"
+                android:hint="Created Date "
+                android:textColor="@android:color/black" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

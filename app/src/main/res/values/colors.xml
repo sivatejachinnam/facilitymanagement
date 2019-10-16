@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0F75BC</color>
+    <color name="colorPrimaryDark">#0262A7</color>
+    <color name="colorPrimaryLight">#74B4E7</color>
+    <color name="colorAccent">#0681CF</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_whiteTransparent">#80ffffff</color>
+    <color name="color_black">#000000</color>
+    <color name="color_blackTransparent">#9F110F0F</color>
+    <color name="recyclerview_bg">#FFFFFF</color>
+    <color name="color_bg1">#F5F5EECE</color>
+    <color name="fab_bg">#0F75BC</color>
+    <color name="color_bg2">#F2F1D8B0</color>
+</resources>
