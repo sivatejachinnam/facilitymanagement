@@ -61,18 +61,31 @@ public class AddTicket extends AppCompatActivity {
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
+<<<<<<< HEAD
 
                                 Log.e("HttpClient","error:"+error.toString());
 
+=======
+                                Log.e("server",
+                                        "not connected data");
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
                             }
                         }){
                     public Map<String, String> getHeaders() throws AuthFailureError {
 
+<<<<<<< HEAD
                         Map<String, String> Params=new HashMap<String, String>();
                         Params.put("ticketDesc",td);
                         Params.put("assignedTo",assign);
                         Params.put("ticketStatus",ticketStatus);
                         Params.put("createdDate",cd);
+=======
+                        Map<String, String> Params=new HashMap<>();
+                        Params.put("ticketDesc",td);
+                        Params.put("assignTo",assign);
+                        Params.put("ticketstatus",ticketStatus);
+                        Params.put("createDate",cd);
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
 
                         return Params;
                                             }

@@ -12,13 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7e483db-b734-4c03-b267-de35f2e67c43" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_neavo_volley_2014_12_09_aar.xml" afterDir="false" />
+=======
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
@@ -31,6 +35,14 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/adapters/TicketListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/adapters/TicketListAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/models/TicketListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/models/TicketListItem.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/AddTicket.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/AddTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/Api.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/Api.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java" afterDir="false" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,12 +99,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/adapters/TicketListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="563">
               <caret line="48" column="69" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="83" column="73" lean-forward="true" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2954#3435#0" expanded="true" />
+                <element signature="e#3434#3435#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,61 +122,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/AddTicket.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="122">
               <caret line="74" column="47" selection-start-line="74" selection-start-column="47" selection-end-line="74" selection-end-column="47" />
               <folding>
                 <element signature="e#2908#2924#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="507">
+              <caret line="63" column="29" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="63" selection-end-column="29" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/models/TicketListItem.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/adapters/TicketListAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="554">
               <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+=======
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
               <folding>
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#617#618#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#705#706#0" expanded="true" />
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#823#824#0" expanded="true" />
-                <element signature="e#865#866#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1031#1032#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
-                <element signature="e#1105#1106#0" expanded="true" />
-                <element signature="e#1161#1162#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1335#1336#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider editor-type-id="android-manifest" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_ticket.xml">
+          <provider selected="true" editor-type-id="android-designer2" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/Api.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+=======
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
             </state>
           </provider>
         </entry>
@@ -172,8 +200,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="465">
               <caret line="31" selection-start-line="31" selection-end-line="31" />
+=======
+            <state relative-caret-position="60">
+              <caret line="4" column="64" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="64" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
             </state>
           </provider>
         </entry>
@@ -202,6 +235,7 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_ticket_list.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_ticket.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/MainActivity.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/models/TicketListItem.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
@@ -210,6 +244,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/Api.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/adapters/TicketListAdapter.java" />
+=======
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/Api.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/AddTicket.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/adapters/TicketListAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       </list>
     </option>
   </component>
@@ -227,6 +268,7 @@
       <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+<<<<<<< HEAD
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -292,6 +334,9 @@
           <select />
         </subPane>
       </pane>
+=======
+      <pane id="AndroidView" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,7 +495,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25160462" />
+=======
+      <window_info content_ui="combo" id="Project" order="1" weight="0.25160462" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -459,13 +508,21 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.5007153" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.042918455" />
+=======
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.44062948" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Build" order="7" weight="0.37911302" />
+=======
+      <window_info anchor="bottom" id="Build" order="7" weight="0.52932763" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.09585121" />
       <window_info anchor="right" id="Viewer" order="0" side_tool="true" />
@@ -478,7 +535,11 @@
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25160462" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25160462" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -487,13 +548,21 @@
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
       <window_info anchor="bottom" id="Run" order="0" weight="0.5007153" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Logcat" order="1" visible="true" weight="0.36480686" />
+=======
+      <window_info anchor="bottom" id="Logcat" order="1" visible="true" weight="0.44062948" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       <window_info anchor="bottom" id="TODO" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Build" order="7" weight="0.37911302" />
+=======
+      <window_info anchor="bottom" id="Build" order="7" weight="0.52932763" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
       <window_info anchor="bottom" id="Android Profiler" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.09585121" />
       <window_info anchor="right" id="Viewer" order="0" side_tool="true" />
@@ -544,6 +613,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_ticket_list.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
@@ -606,6 +676,9 @@
         </state>
       </provider>
     </entry>
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_api.xml" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/models/TicketListItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
@@ -635,6 +708,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -646,18 +720,90 @@
             <element signature="e#4280#4485#0" expanded="true" />
             <element signature="e#4484#4485#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_ticket.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="77" column="26" selection-start-line="77" selection-start-column="26" selection-end-line="77" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_ticket_list.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/AddTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="63" column="29" lean-forward="true" selection-start-line="60" selection-start-column="20" selection-end-line="63" selection-end-column="29" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/adapters/TicketListAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="563">
           <caret line="48" column="69" selection-start-line="48" selection-start-column="69" selection-end-line="48" selection-end-column="69" />
+=======
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/activities/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="64" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dcrewit/facilitymanagement/fragments/TicketListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="83" column="73" lean-forward="true" selection-start-line="83" selection-start-column="73" selection-end-line="83" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2954#3435#0" expanded="true" />
+            <element signature="e#3434#3435#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
   </component>
 </project>
