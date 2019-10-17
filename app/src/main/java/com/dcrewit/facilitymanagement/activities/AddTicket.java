@@ -60,16 +60,16 @@ public class AddTicket extends AppCompatActivity {
                             @Override
                             public void onErrorResponse(VolleyError error) {
                                 Log.e("server",
-                                        "not connected");
+                                        "not connected data");
                             }
                         }){
                     protected Map<String, String> getParams(){
 
                         Map<String, String> Params=new HashMap<>();
-                        Params.put("t",td);
-                        Params.put("assign",assign);
+                        Params.put("ticketDesc",td);
+                        Params.put("assignTo",assign);
                         Params.put("ticketstatus",ticketStatus);
-                        Params.put("cd",cd);
+                        Params.put("createDate",cd);
 
                         return Params;
                                             }
