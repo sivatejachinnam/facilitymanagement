@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -44,11 +45,12 @@ public class AddTicket extends AppCompatActivity {
                 String assign=assignedTo.getText().toString().trim();
                 String ticketstatus=ticketStatus.getText().toString().trim();
                 String cd=createdDate.getText().toString().trim();
+
                 addNewTicket(td,assign,ticketstatus,cd);
             }
 
             private void addNewTicket(final String td,final String assign,final String ticketStatus,final String cd) {
-                Log.d("assa", "addNewTicket:12 ");
+
                 RequestQueue addticket= Volley.newRequestQueue(AddTicket.this);
                 StringRequest request=new StringRequest(Request.Method.POST,Api.ROOT, new Response.Listener<String>() {
                     @Override
@@ -59,23 +61,24 @@ public class AddTicket extends AppCompatActivity {
                         new Response.ErrorListener() {
                             @Override
                             public void onErrorResponse(VolleyError error) {
-                                Log.e("server",
-                                        "not connected");
+
+                                Log.e("HttpClient","error:"+error.toString());
+
                             }
                         }){
-                    protected Map<String, String> getParams(){
+                    public Map<String, String> getHeaders() throws AuthFailureError {
 
-                        Map<String, String> Params=new HashMap<>();
-                        Params.put("t",td);
-                        Params.put("assign",assign);
-                        Params.put("ticketstatus",ticketStatus);
-                        Params.put("cd",cd);
+                        Map<String, String> Params=new HashMap<String, String>();
+                        Params.put("ticketDesc",td);
+                        Params.put("assignedTo",assign);
+                        Params.put("ticketStatus",ticketStatus);
+                        Params.put("createdDate",cd);
 
                         return Params;
                                             }
                 };
                 addticket.add(request);
-//
+
             }
         });
     }

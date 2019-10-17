@@ -8,18 +8,33 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.dcrewit.facilitymanagement.R;
 import com.dcrewit.facilitymanagement.activities.AddTicket;
+import com.dcrewit.facilitymanagement.activities.Api;
 import com.dcrewit.facilitymanagement.adapters.TicketListAdapter;
 import com.dcrewit.facilitymanagement.models.TicketListItem;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonObject;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class TicketListFragment extends Fragment {
 
@@ -34,8 +49,10 @@ public class TicketListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
+
         // Inflate the layout for this fragment
-        View view =  inflater.inflate(R.layout.fragment_ticket_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_ticket_list, container, false);
         ticketListFragment = new TicketListFragment();
 
         ticketListAdapter = new TicketListAdapter(ticketList);
@@ -47,21 +64,60 @@ public class TicketListFragment extends Fragment {
         recyclerView.setItemAnimator(new DefaultItemAnimator());
         recyclerView.setAdapter(ticketListAdapter);
 
-        TicketListItem ticketListItem = new TicketListItem("1","Ticket1","client1","Done","15/10/2019");
-        ticketList.add(ticketListItem);
-        ticketListItem = new TicketListItem("2","Ticket2","client2","Done","15/10/2019");
-        ticketList.add(ticketListItem);
-        ticketListItem = new TicketListItem("3","Ticket3","client3","Done","15/10/2019");
-        ticketList.add(ticketListItem);
-        ticketListAdapter.notifyDataSetChanged();
+//        TicketListItem ticketListItem = new TicketListItem("1","Ticket1","client1","Done","15/10/2019");
+//        ticketList.add(ticketListItem);
+//        ticketListItem = new TicketListItem("2","Ticket2","client2","Done","15/10/2019");
+//        ticketList.add(ticketListItem);
+//        ticketListItem = new TicketListItem("3","Ticket3","client3","Done","15/10/2019");
+//        ticketList.add(ticketListItem);
+//        ticketListAdapter.notifyDataSetChanged();
 
-        addTicket.setOnClickListener(new View.OnClickListener() {
+        RequestQueue getTickets = Volley.newRequestQueue(this.getActivity().getApplicationContext());
+        StringRequest getRequest = new StringRequest(Request.Method.GET, Api.TICKET, new Response.Listener<String>() {
             @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getActivity(), AddTicket.class);
-                startActivityForResult(intent,1);
+            public void onResponse(String response) {
+                Log.e("HttpClient", "success! response:" + response.toString());
+                try {
+                    JSONArray jsonarray = new JSONArray(response);
+                    for (int i = 0; i < jsonarray.length(); i++) {
+                        JSONObject jsonobject = jsonarray.getJSONObject(i);
+                        int ticketId = jsonobject.getInt("ticketId");
+
+                        String ticketDesc = jsonobject.getString("ticketDesc");
+                        String assignedTo = jsonobject.getString("assignedTo");
+                        String ticketStatus = jsonobject.getString("ticketStatus");
+                        String createdDate = jsonobject.getString("createdDate");
+                        Log.d("s", "onResponse: "+ticketId+ticketDesc+assignedTo+ticketStatus+createdDate);
+                        TicketListItem ticketListItem = new TicketListItem(ticketId, ticketDesc, assignedTo, ticketStatus, createdDate);
+
+                        ticketList.add(ticketListItem);
+
+//                        ticketListAdapter.notifyDataSetChanged();
+
+                    }
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
             }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Log.e("HttpClient", "error:" + error.toString());
+
+            }
+
         });
+        getTickets.add(getRequest);
+
+
+
+                addTicket.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View view) {
+                        Intent intent = new Intent(getActivity(), AddTicket.class);
+                        startActivityForResult(intent, 1);
+                    }
+                });
 
         return view;
     }

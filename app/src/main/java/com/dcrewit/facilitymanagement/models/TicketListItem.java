@@ -1,13 +1,13 @@
 package com.dcrewit.facilitymanagement.models;
 
 public class TicketListItem {
-    private String ticketId;
+    private int ticketId;
     private String ticketDes;
     private String assignedTo;
     private String ticketStatus;
     private String createdDate;
 
-    public TicketListItem(String ticketId, String ticketDes, String assignedTo, String ticketStatus, String createdDate) {
+    public TicketListItem(int ticketId, String ticketDes, String assignedTo, String ticketStatus, String createdDate) {
         this.ticketId = ticketId;
         this.ticketDes = ticketDes;
         this.assignedTo = assignedTo;
@@ -15,11 +15,11 @@ public class TicketListItem {
         this.createdDate = createdDate;
     }
 
-    public String getTicketId() {
+    public int getTicketId() {
         return ticketId;
     }
 
-    public void setTicketId(String ticketId) {
+    public void setTicketId(int ticketId) {
         this.ticketId = ticketId;
     }
 
