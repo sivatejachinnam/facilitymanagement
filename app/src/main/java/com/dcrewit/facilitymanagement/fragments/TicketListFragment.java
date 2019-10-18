@@ -16,10 +16,7 @@ import android.view.ViewGroup;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
-<<<<<<< HEAD
 import com.android.volley.VolleyError;
-=======
->>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.dcrewit.facilitymanagement.R;
@@ -74,41 +71,6 @@ public class TicketListFragment extends Fragment {
 //        ticketListItem = new TicketListItem("3","Ticket3","client3","Done","15/10/2019");
 //        ticketList.add(ticketListItem);
 //        ticketListAdapter.notifyDataSetChanged();
-<<<<<<< HEAD
-=======
-
-        RequestQueue getTickets= Volley.newRequestQueue(getContext().getApplicationContext());
-        StringRequest getRequest=new StringRequest(Request.Method.GET, Api.TICKET, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                Log.e("HttpClient","success! response:"+response.toString());
-                try{
-                    JSONArray jsonarray = new JSONArray(response);
-                    for (int i = 0; i < jsonarray.length(); i++) {
-                        JSONObject jsonobject = jsonarray.getJSONObject(i);
-                        String ticketId=jsonobject.getString("id");
-                        String ticketDesc=jsonobject.getString("ticketDesc");
-                        String assignTo=jsonobject.getString("assignTo");
-                        String ticketStatus=jsonobject.getString("ticketStatus");
-                        String createDate=jsonobject.getString("createdDate");
-                            TicketListFragment adapter=new TicketListFragment(ticketId,ticketDesc,assignTo,ticketStatus,createDate)
-
-                    }
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-
-
-
-
-
-
-
-
-
->>>>>>> f3544113db3c927f2f16d13110af013dca8e4992
 
         RequestQueue getTickets = Volley.newRequestQueue(this.getActivity().getApplicationContext());
         StringRequest getRequest = new StringRequest(Request.Method.GET, Api.TICKET, new Response.Listener<String>() {

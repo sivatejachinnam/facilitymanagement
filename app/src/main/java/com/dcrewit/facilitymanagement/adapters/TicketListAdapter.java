@@ -46,7 +46,7 @@ public class TicketListAdapter extends RecyclerView.Adapter<TicketListAdapter.Vi
 
 
         TicketListItem ticketListItem = ticketListItemList.get(position);
-        holder.txtViewticketId.setText( ticketListItem.getTicketId().);
+        holder.txtViewticketId.setText( ticketListItem.getTicketId());
         holder.txtViewTicketDesc.setText(ticketListItem.getTicketDes());
         holder.txtViewAssignedTo.setText(ticketListItem.getAssignedTo());
         holder.txtViewticketStatus.setText(ticketListItem.getTicketStatus());
